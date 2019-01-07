@@ -155,5 +155,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
-exec --no-startup-id feh --bg-scale /home/rburris/Pictures/Wall1.png
+# uncomment line below to set a wallpaper
+# exec --no-startup-id feh --bg-scale /home/rburris/Pictures/Wall1.png
+# Set lock for Ctrl+Alt+L using i3lock-fancy, which needs to be installed
 bindsym Control+Mod1+l exec i3lock-fancy
